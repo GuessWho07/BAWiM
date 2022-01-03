@@ -1,20 +1,19 @@
 # Wstęp do Cross Site Scripting
 **Uwaga** - Wymagane jest konto na PortSwigger
 
-## Store XSS
-### Zadanie1
-
-Wywołaj alert w okienku.
+## Stored XSS
+Stored XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-
+### Zadanie2
+Stored DOM XSS
+> [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
 <br/><br/>
 
 ## Reflected XSS
 ### Zadanie1
-
+### Zadanie1
 Wywołaj alert w okienku.
-> [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-
+> [Link]()
 <br/><br/>
 
 ## DOM-based XSS
@@ -36,7 +35,7 @@ DOM XSS in jQuery anchor href attribute sink using location.search source
 ### Zadanie1
 
 Wywołaj alert w okienku.
-> [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+> [Link]()
 
 <br/><br/>
 
