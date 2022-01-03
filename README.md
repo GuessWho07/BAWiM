@@ -19,10 +19,17 @@ Wywołaj alert w okienku.
 
 ## DOM-based XSS
 ### Zadanie1
-
-Wywołaj alert w okienku.
-> [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-
+DOM XSS in document.write sink using source location.search
+> [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
+### Zadanie2
+DOM XSS in innerHTML sink using source location.search
+> [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
+### Zadanie3
+DOM XSS in document.write sink using source location.search inside a select element
+> [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element)
+### Zadanie4
+DOM XSS in jQuery anchor href attribute sink using location.search source
+> [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
 <br/><br/>
 
 ## Mutation XSS
