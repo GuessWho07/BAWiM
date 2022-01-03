@@ -32,3 +32,8 @@ Wywołaj alert w okienku.
 > [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
 <br/><br/>
+
+## Artykuł o technicznych aspektach Samy
+> [Link](https://samy.pl/myspace/tech.html)
+
+<br/><br/>
