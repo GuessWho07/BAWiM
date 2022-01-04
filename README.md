@@ -16,6 +16,9 @@ Reflected XSS into HTML context with nothing encoded
 ### Zadanie2
 Reflected XSS with event handlers and href attributes blocked
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-event-handlers-and-href-attributes-blocked)
+### Zadanie3
+Reflected XSS into attribute with angle brackets HTML-encoded
+> [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
 <br/><br/>
 
 ## DOM-based XSS
