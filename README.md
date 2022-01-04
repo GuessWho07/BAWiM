@@ -11,9 +11,8 @@ Stored DOM XSS
 
 ## Reflected XSS
 ### Zadanie1
-### Zadanie1
-Wywołaj alert w okienku.
-> [Link]()
+Reflected XSS into HTML context with nothing encoded
+> [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 <br/><br/>
 
 ## DOM-based XSS
