@@ -2,6 +2,7 @@
 **Uwaga** - Wymagane jest konto na PortSwigger
 
 ## Stored XSS
+## Zadanie1
 Stored XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 ### Zadanie2
@@ -19,6 +20,9 @@ Reflected XSS with event handlers and href attributes blocked
 ### Zadanie3
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
+### Zadanie4
+Reflected XSS in canonical link tag
+> [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag)
 <br/><br/>
 
 ## DOM-based XSS
