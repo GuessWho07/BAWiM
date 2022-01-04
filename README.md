@@ -13,6 +13,9 @@ Stored DOM XSS
 ### Zadanie1
 Reflected XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+### Zadanie2
+Reflected XSS with event handlers and href attributes blocked
+> [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-event-handlers-and-href-attributes-blocked)
 <br/><br/>
 
 ## DOM-based XSS
