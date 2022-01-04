@@ -40,14 +40,6 @@ DOM XSS in jQuery anchor href attribute sink using location.search source
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
 <br/><br/>
 
-## Mutation XSS
-### Zadanie1
-
-Wywołaj alert w okienku.
-> [Link]()
-
-<br/><br/>
-
 ## Artykuł o technicznych aspektach Samy
 > [Link](https://samy.pl/myspace/tech.html)
 
