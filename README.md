@@ -1,6 +1,6 @@
 # Wstęp do Cross Site Scripting
 **Uwaga** - Wymagane jest konto na PortSwigger
-
+> [Link](https://portswigger.net/users/register)
 ## Stored XSS
 ## Zadanie1
 Stored XSS into HTML context with nothing encoded
