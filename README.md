@@ -2,22 +2,22 @@
 **Uwaga** - Wymagane jest konto na PortSwigger
 > [Link](https://portswigger.net/users/register)
 ## Stored XSS
-## Zadanie1
+## Zadanie1 Bardzo łatwe komentarz
 Stored XSS into HTML context with nothing encoded
-> [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-### Zadanie2
+> [Link](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
+### Zadanie2 Średnie komentarz
 Stored DOM XSS
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
 <br/><br/>
 
 ## Reflected XSS
-### Zadanie1
+### Zadanie1 Bardzo łatwe searchbox
 Reflected XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
-### Zadanie2
+### Zadanie2 Trudne URL
 Reflected XSS with event handlers and href attributes blocked
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-event-handlers-and-href-attributes-blocked)
-### Zadanie3
+### Zadanie3 Średnie Searchbox
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
 ### Zadanie4
