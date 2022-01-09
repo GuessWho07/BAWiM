@@ -13,9 +13,27 @@ Reflected XSS into HTML context with nothing encoded
 ## Zadanie2
 Stored XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
+<details>
+  <summary>Podpowiedź</summary>
+	Poszukaj miejsca w którym możnaby umieścić Payload jak np. jakiś formularz, komentarz itd.    
+</details>
+
 ### Zadanie3
 Stored DOM XSS
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
+<details>
+  <summary>Mała podpowiedź</summary>
+     Sprawdź w jaki sposób strona traktuje twój payload, pomocna może być funkcja 'zbadaj element'
+</details>
+<details>
+  <summary>Podpowiedź</summary>
+    Napisz komentarz zawierający 2 tagi html, np. "<tag1><tag2>". Następnie sprawdź jak strona traktuje obydwa te tagi. 
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+    Gdy napiszesz komentarz zawierający 2 tagi html, pierwszy jest traktowany jako tekst i jest umieszczany w "", z kolei drugi jest traktowany jako zwykły tag html. 
+</details>
+
 ### Zadanie4
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
@@ -25,6 +43,23 @@ DOM XSS in innerHTML sink using source location.search
 ### Zadanie6
 DOM XSS in document.write sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
+<details>
+  <summary>Mała podpowiedź</summary>
+	Przydatnym narzędziem będzie 'zbadaj element'    
+</details>
+<details>
+  <summary>Podpowiedź</summary>
+	Wyszukaj coś i zbadaj jak napis, który wyszukałeś, jest przechowywany w kodzie źródłowym strony   
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+	Musisz uciec z tagu <img src="...">
+</details>
+<details>
+  <summary>Bardzo duża podpowiedź</summary>
+	Musisz uciec z tagu <img src="...">, aby to zrobić, poprzedź swój payload znakami ">
+</details>
+
 ### Zadanie7
 DOM XSS in jQuery anchor href attribute sink using location.search source
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
