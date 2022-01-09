@@ -38,7 +38,7 @@ Stored DOM XSS
 ### Zadanie4
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
-
+<details>
 <summary>Podpowiedź</summary>
     Zauważ że treść w searchboxie umieszczana jest w cudzysłowie, zastanów się jak to obejść
 </details>
@@ -50,6 +50,7 @@ Reflected XSS into attribute with angle brackets HTML-encoded
 ### Zadanie5
 DOM XSS in innerHTML sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
+<details>
 <summary>Podpowiedź</summary>
     Spróbuj wykorzystać znacznik <img>
 </details>
