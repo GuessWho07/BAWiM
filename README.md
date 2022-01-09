@@ -53,11 +53,11 @@ DOM XSS in document.write sink using source location.search
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-	Musisz uciec z tagu <img src="...">
+	Musisz uciec z tagu &ltimg src="..."&gt
 </details>
 <details>
   <summary>Bardzo duża podpowiedź</summary>
-	Musisz uciec z tagu <img src="...">, aby to zrobić, poprzedź swój payload znakami ">
+	Musisz uciec z tagu &ltimg src="..."&gt, aby to zrobić, poprzedź swój payload znakami "&gt
 </details>
 
 ### Zadanie7
@@ -81,7 +81,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element)
 <details>
   <summary>Mała podpowiedź</summary>
-  Spróbuj dodać <i>&storeId=skrypt</i> do URL na ekranie produkut i zobacz co się stanie 
+  Spróbuj dodać &lti&gt&storeId=skrypt&lt/i&gt do URL na ekranie produkut i zobacz co się stanie 
 </details>
 <details>
   <summary>Podpowiedź</summary>
@@ -140,7 +140,7 @@ DOM XSS in jQuery anchor href attribute sink using location.search source
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    URL podstrony 'Feedback' definiuje co się stanie gdy wciśniemy przycisk 'Back'. Adres do którego mamy się cofnąc zawarty jest w tagu 'href'. Sprawdź jak można użyć javascript w tagu 'href' 
+    URL podstrony 'Feedback' definiuje co się stanie gdy wciśniemy przycisk 'Back'. Adres do którego mamy się cofnąc zawarty jest w tagu &lta href='...'&gt. Sprawdź jak można użyć javascript za pomocą href 
 </details>
 <br/><br/>
 
