@@ -44,6 +44,7 @@ Reflected XSS into attribute with angle brackets HTML-encoded
   <summary>Duża podpowiedź</summary>
    Spróbuj umieścić kod JS po wpisaniu "onmouseover="
 </details>
+
 ### Zadanie5
 DOM XSS in innerHTML sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
@@ -54,6 +55,7 @@ DOM XSS in innerHTML sink using source location.search
   <summary>Duża podpowiedź</summary>
    Wywołaj kod JS event handlerem onerror
 </details>
+
 ### Zadanie6
 DOM XSS in document.write sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
