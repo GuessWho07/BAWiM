@@ -21,6 +21,7 @@ Stored XSS into HTML context with nothing encoded
 ### Zadanie3
 Stored DOM XSS
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
+
 <details>
   <summary>Mała podpowiedź</summary>
      Sprawdź w jaki sposób strona traktuje twój payload, pomocna może być funkcja 'zbadaj element'
@@ -37,6 +38,7 @@ Stored DOM XSS
 ### Zadanie4
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
+
 <summary>Podpowiedź</summary>
     Zauważ że treść w searchboxie umieszczana jest w cudzysłowie, zastanów się jak to obejść
 </details>
