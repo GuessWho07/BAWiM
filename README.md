@@ -27,7 +27,7 @@ Stored DOM XSS
 </details>
 <details>
   <summary>Podpowiedź</summary>
-    Napisz komentarz zawierający 2 tagi html, np. "<tag1><tag2>". Następnie sprawdź jak strona traktuje obydwa te tagi. 
+    Napisz komentarz zawierający 2 tagi html, np. "&lttag1&gt&lttag2&gt". Następnie sprawdź jak strona traktuje obydwa te tagi. 
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
