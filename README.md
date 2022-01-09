@@ -37,9 +37,23 @@ Stored DOM XSS
 ### Zadanie4
 Reflected XSS into attribute with angle brackets HTML-encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-attribute-angle-brackets-html-encoded)
+<summary>Podpowiedź</summary>
+    Zauważ że treść w searchboxie umieszczana jest w cudzysłowie, zastanów się jak to obejść
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+   Spróbuj umieścić kod JS po wpisaniu "onmouseover="
+</details>
 ### Zadanie5
 DOM XSS in innerHTML sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
+<summary>Podpowiedź</summary>
+    Spróbuj wykorzystać znacznik <img>
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+   Wywołaj kod JS event handlerem onerror
+</details>
 ### Zadanie6
 DOM XSS in document.write sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink)
@@ -85,11 +99,12 @@ DOM XSS in document.write sink using source location.search inside a select elem
 </details>
 <details>
   <summary>Podpowiedź</summary>
-    placeholder
+    Zamknij zacznik za pomocą "></select> 
+    Spacja zakodowana jest jako %20
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    placeholder 
+    Spróbuj przy pomocy znacznika <img> sprawić aby wykonywał się kod JS przy błędzie 
 </details>
 
 ### Zadanie9
