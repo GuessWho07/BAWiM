@@ -38,6 +38,10 @@ DOM XSS in document.write sink using source location.search inside a select elem
 ### Zadanie4 Bardzo Trudne HTML
 DOM XSS in jQuery anchor href attribute sink using location.search source
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
+<details>
+  <summary>Mała podpowiedź</summary>
+    Kliknij w link do strony 'Feedback' i przyjrzyj się URL
+</details>
 <br/><br/>
 
 ## Artykuł o technicznych aspektach Samy
