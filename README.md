@@ -9,6 +9,7 @@ Reflected XSS into HTML context with nothing encoded
   <summary>Podpowiedź</summary>
 	Poszukaj miejsca w którym możnaby umieścić Payload jak np. jakiś formularz, komentarz itd.    
 </details>
+
 ## Zadanie2
 Stored XSS into HTML context with nothing encoded
 > [Link](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)
