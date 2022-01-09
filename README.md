@@ -42,6 +42,14 @@ DOM XSS in jQuery anchor href attribute sink using location.search source
   <summary>Mała podpowiedź</summary>
     Kliknij w link do strony 'Feedback' i przyjrzyj się URL
 </details>
+<details>
+  <summary>Podpowiedź</summary>
+    Zastanów się do jakiego elementu strony odnosi się URL i jak dane tam zawarte są używane w kodzie źródłowym strony.
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+    URL podstrony 'Feedback' definiuje co się stanie gdy wciśniemy przycisk 'Back'. Adres do którego mamy się cofnąc zawarty jest w tagu 'href'. Sprawdź jak można użyć javascript w tagu 'href' 
+</details>
 <br/><br/>
 
 ## Artykuł o technicznych aspektach Samy
