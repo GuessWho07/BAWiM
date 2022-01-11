@@ -104,7 +104,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
 </details>
 <details>
   <summary>Podpowiedź</summary>
-    Zamknij zacznik za pomocą "></select> 
+    Zamknij zacznik za pomocą "&gt&lt/select&gt 
     Spacja zakodowana jest jako %20
 </details>
 <details>
