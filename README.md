@@ -52,7 +52,7 @@ DOM XSS in innerHTML sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
 <details>
 <summary>Podpowiedź</summary>
-    Spróbuj wykorzystać znacznik <img>
+    Spróbuj wykorzystać znacznik'<img>'
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
@@ -109,7 +109,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    Spróbuj przy pomocy znacznika <img> sprawić aby wykonywał się kod JS przy błędzie 
+    Spróbuj przy pomocy znacznika '<img>' sprawić aby wykonywał się kod JS przy błędzie 
 </details>
 
 ### Zadanie9
