@@ -52,7 +52,7 @@ DOM XSS in innerHTML sink using source location.search
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink)
 <details>
 <summary>Podpowiedź</summary>
-    Spróbuj wykorzystać znacznik'<img>'
+    Spróbuj wykorzystać znacznik &ltimg&gt
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
@@ -100,7 +100,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element)
 <details>
   <summary>Mała podpowiedź</summary>
-  Spróbuj dodać &lti&gt&storeId=skrypt&lt/i&gt do URL na ekranie produkut i zobacz co się stanie 
+  Spróbuj dodać &storeId=skrypt do URL na ekranie produkut i zobacz co się stanie 
 </details>
 <details>
   <summary>Podpowiedź</summary>
@@ -109,7 +109,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    Spróbuj przy pomocy znacznika '<img>' sprawić aby wykonywał się kod JS przy błędzie 
+    Spróbuj przy pomocy znacznika &ltimg&gt sprawić aby wykonywał się kod JS przy błędzie 
 </details>
 
 ### Zadanie9
