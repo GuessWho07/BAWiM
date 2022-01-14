@@ -100,16 +100,16 @@ DOM XSS in document.write sink using source location.search inside a select elem
 > [Link](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element)
 <details>
   <summary>Mała podpowiedź</summary>
-  Spróbuj dodać &storeId=skrypt do URL na ekranie produkut i zobacz co się stanie 
+  Spróbuj dodać &storeId=skrypt do URL na ekranie produkt i zobacz co się stanie 
 </details>
 <details>
   <summary>Podpowiedź</summary>
-    Zamknij zacznik za pomocą "&gt&lt/select&gt 
+    Zamknij znacznik za pomocą "&gt&lt/select&gt 
     Spacja zakodowana jest jako %20
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    Spróbuj przy pomocy znacznika &ltimg&gt sprawić aby wykonywał się kod JS przy błędzie 
+    Spróbuj przy pomocy znacznika &ltimg&gt użyć eventhandlera błędu 
 </details>
 
 ### Zadanie9
