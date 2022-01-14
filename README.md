@@ -125,7 +125,7 @@ Reflected XSS in canonical link tag
 </details>
 <details>
   <summary>Duża podpowiedź</summary>
-    Poniższy kod umieszczony w URL rozwiąże lab
+    Poniższy kod umieszczony w URL rozwiąże lab <br>
 %27accesskey=%27x%27onclick=%27alert(1)
 </details>
 
