@@ -112,7 +112,7 @@ DOM XSS in document.write sink using source location.search inside a select elem
     Spróbuj przy pomocy znacznika &ltimg&gt użyć eventhandlera błędu 
 </details>
 
-### Zadanie9
+### Zadanie9 dla chętnych
 Reflected XSS in canonical link tag
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag)
 
