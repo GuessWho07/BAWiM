@@ -115,6 +115,19 @@ DOM XSS in document.write sink using source location.search inside a select elem
 ### Zadanie9 dla chętnych
 Reflected XSS in canonical link tag
 > [Link](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag)
+<details>
+  <summary>Mała podpowiedź</summary>
+  ' jest kodowany jako %27 
+</details>
+<details>
+  <summary>Podpowiedź</summary>
+    Spróbuj sprawić żeby skrypt wykonywał się po wykonaniu skrótu klawiszowego
+</details>
+<details>
+  <summary>Duża podpowiedź</summary>
+    Poniższy kod umieszczony w URL rozwiąże lab
+%27accesskey=%27x%27onclick=%27alert(1)
+</details>
 
 ## Artykuł o technicznych aspektach Samy
 > [Link](https://samy.pl/myspace/tech.html)
